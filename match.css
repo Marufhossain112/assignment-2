@@ -85,6 +85,7 @@ header {
 .upcoming-match {
   padding: 5px 10px;
   border-radius: 5px;
+  background: #00ff8e !important;
 }
 .all-group {
   padding: 5px 30px;
@@ -96,52 +97,56 @@ header {
 .special-blog {
   padding: 5px 41px;
   border-radius: 5px;
-  background: #00ff8e !important;
 }
 
-.blogs {
+.matches {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
 }
 
-.blog {
+.match {
   width: 200px;
-  height: 332px;
+  height: 160px;
   border: 1px solid #e8e8e8;
   border-radius: 10px;
 }
 
-.transfer-btn {
-  border: 1px solid black;
-  border-radius: 3px;
-  padding: 3px 10px;
-  background: white;
-}
-.blog h4 {
+.match h5 {
+  font-size: 15px;
   font-weight: 600;
-  /* font-size: 18px; */
+  color: rgba(22, 22, 22, 1);
 }
-.transfer-info {
-  display: flex;
-}
-.transfer-details {
-  padding: 12px 18px;
-}
-.transfer-details h4 {
-  padding: 11px 0;
-}
-.transfer-info {
-  color: rgba(22, 22, 22, 0.7);
+.match p {
+  color: rgba(77, 77, 77, 1);
+  font-size: 12px;
 }
 
-.fa-regular {
+.match-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+}
+
+.flags {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flags img {
+  width: 70px;
+  height: 43px;
+}
+
+.german-flag{
   margin-right: 10px;
 }
-
-.transfer-duration {
-  margin-right: 35px;
+.france-img{
+  margin-left: 10px;
 }
+
 /* main ends here */
 
 /* footer starts here */
