@@ -7,12 +7,12 @@
 }
 
 body {
-  max-width: 800px;
-  margin: 0 auto;
   font-family: "Poppins", sans-serif;
 }
 /* header starts */
 header {
+  max-width: 800px;
+  margin: 0 auto;
   display: flex;
   background-color: #262222;
   margin-top: 25px;
@@ -58,7 +58,9 @@ header {
 /* header ends here */
 
 /* main starts here */
-.world-cup-information {
+.world-cup-fixtures {
+  max-width: 800px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-around;
 }
@@ -140,10 +142,10 @@ header {
   height: 43px;
 }
 
-.german-flag{
+.german-flag {
   margin-right: 10px;
 }
-.france-img{
+.france-img {
   margin-left: 10px;
 }
 
@@ -179,7 +181,7 @@ footer h4 {
 .meet-us ul li a {
   text-decoration: none;
   color: #ffffff;
-  font-size: 8px;
+  font-size: 10px;
   font-weight: 500;
   margin: 0 15px;
 }

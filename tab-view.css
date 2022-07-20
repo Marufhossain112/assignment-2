@@ -16,7 +16,7 @@
     font-size: 0.9em;
   }
   /* main part */
-  .world-cup-information {
+  .world-cup-fixtures {
     max-width: 480px;
     margin: 0 auto;
     display: flex;
@@ -24,12 +24,12 @@
     flex-direction: column;
     align-items: center;
   }
-  .blogs {
+  .blogs , .matches {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
   }
-  .blog{
+  .blog , .match{
     width: 225px;
   }
   .switch-table {
