@@ -55,6 +55,12 @@ header {
   padding: 11px 16px 11px 13px;
   border-radius: 5px;
 }
+
+.similiar-button:hover {
+  transform: translate(4px, 2px);
+  background-color: #ffffff;
+}
+
 /* header ends here */
 
 /* main starts here */
@@ -161,7 +167,6 @@ footer {
   align-items: center;
   height: 275px;
   margin-top: 60px;
-
 }
 
 footer h4 {
